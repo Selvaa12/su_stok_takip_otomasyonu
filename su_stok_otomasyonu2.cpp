@@ -208,7 +208,7 @@ void StokDuzenle() {
 
     ofstream yedekYaz("yedek.dat", ios::binary);
 
-    cout << "Düzenlenecek stok ID giriniz: ";
+    cout << "Düzenlenecek stok ÝD giriniz: ";
     cin >> stokID;
 
     oku.seekg(0, ios::end);
